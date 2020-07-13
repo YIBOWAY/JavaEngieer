@@ -1,3 +1,13 @@
+<!--valign的值分别是：-->
+
+<!--top：对内容进行上对齐。-->
+
+<!--middle：对内容进行居中对齐（默认值）。-->
+
+<!--bottom：对内容进行下对齐。-->
+
+<!--baseline：与基线对齐。-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +15,7 @@
   <title>table</title>
 </head>
 <body>
-  <table border="1" width="50%">      <!--占当前所在容器的百分之50-->
+  <table border="1" width="50%" bgcolor="#663399">      <!--占当前所在容器的百分之50-->
    <tr>
      <td>星期</td>
      <td>星期一</td>
@@ -26,13 +36,13 @@
      <td>第二节</td>
      <td>数学</td>
      <td>数学</td>
-     <td colspan="2" rowspan="2">数学</td>
+     <td colspan="2" rowspan="2" align="center" valign="top">数学</td>
 <!--     <td> 数学</td>-->
      <td>数学</td>
    </tr>
    <tr>
      <td>第三节</td>
-     <td rowspan="2">英语</td>
+     <td rowspan="2" align="center">英语</td>
      <td>英语</td>
 <!--     <td>英语</td>-->
 <!--     <td>英语</td>-->
